@@ -15,8 +15,7 @@ h1,small{
     max-height:100%;
 }
 h1{
-    color:white;
-    -webkit-text-stroke: 0.1px black;
+    color:#222;
     font-size:62px;
     line-height:20px;
 }
@@ -24,4 +23,14 @@ small{
     opacity:0.3;
     font-size:14px;
     letter-spacing: 1.2pt;
+}
+@media (max-width:720px){
+    h1{
+        font-size:32px;
+    }
+}
+@media (max-width:340px){
+    h1{
+        font-size:24px;
+    }
 }
