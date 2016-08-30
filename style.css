@@ -15,8 +15,10 @@ h1,small{
     max-height:100%;
 }
 h1{
+    color:white;
+    -webkit-text-stroke: 0.1px black;
     font-size:62px;
-    line-height:22px;
+    line-height:20px;
 }
 small{
     opacity:0.3;
