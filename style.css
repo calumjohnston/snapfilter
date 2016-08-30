@@ -1,0 +1,25 @@
+html,body{
+    margin:0;
+}
+h1,small{
+    margin:0;
+}
+.wrapper{
+    background-color:#FFFF00;
+    color:#222;
+    font-family:Baloo Tamma,Arial;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    max-height:100%;
+}
+h1{
+    font-size:62px;
+    line-height:22px;
+}
+small{
+    opacity:0.3;
+    font-size:14px;
+    letter-spacing: 1.2pt;
+}
