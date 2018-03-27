@@ -6,10 +6,10 @@ h1,small{
 }
 h2{
     font-family:'Open Sans';
-    color:#bda534;
+    color:#888;
 }
 .wrapper{
-    background-color:#F4D43C;
+    background-color:#f9f9f9;
     color:#222;
     font-family:'Open Sans';
     display:flex;
