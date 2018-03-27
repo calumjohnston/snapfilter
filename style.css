@@ -4,8 +4,12 @@ html,body{
 h1,small{
     margin:0;
 }
+h2{
+    font-family:'Open Sans';
+    color:#bda534;
+}
 .wrapper{
-    background-color:#FFFC00;
+    background-color:#F4D43C;
     color:#222;
     font-family:Baloo Tamma,Arial;
     display:flex;
@@ -20,6 +24,23 @@ h1,small{
             align-items:center;
     height:100vh;
     max-height:100%;
+}
+.content{
+    max-width: 960px;
+    margin:0 auto;
+}
+.well{
+    background:#fff;
+    padding:2em;
+    font-family:'Open Sans', 'Segoe UI', Helvetica, sans-serif;
+}
+#contact-link{
+    margin:0 auto;
+    padding:1em 2em;
+    background:#e64c4c;
+    color:#fff;
+    text-decoration: none;
+
 }
 h1{
     color:#222;
